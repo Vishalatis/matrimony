@@ -1,0 +1,860 @@
+<!DOCTYPE html>
+<html itemscope itemtype="" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <title>Lagna.com</title>
+    <meta name="title" content="Lagna.com - Home" />
+
+    <link
+      rel="shortcut icon"
+      href="assets/images/favicon.png"
+      type="image/x-icon"
+    />
+
+    <link rel="apple-touch-icon" href="assets/images/logo_icon/logo.png" />
+    <link href="assets/global/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="assets/global/css/all.min.css" rel="stylesheet" />
+    <link
+      href="assets/templates/basic/css/datepicker.min.css"
+      rel="stylesheet"
+    />
+    <link href="assets/global/css/line-awesome.min.css" rel="stylesheet" />
+    <link href="assets/templates/basic/css/slick.css" rel="stylesheet" />
+    <link href="assets/templates/basic/css/jquery-ui.css" rel="stylesheet" />
+    <link
+      href="assets/templates/basic/css/magnific-popup.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/templates/basic/css/odometer-theme-default.css"
+      rel="stylesheet"
+    />
+    <link href="assets/templates/basic/css/main.css" rel="stylesheet" />
+    <link href="assets/templates/basic/css/custom.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <style>
+      .modal .btn {
+        padding: 5px 10px !important;
+      }
+
+      .modal-title {
+        margin: 0;
+      }
+
+      .modal-header {
+        padding: 13px 15px;
+      }
+
+      .modal-body h6 {
+        margin: 1rem 1rem;
+      }
+
+      .list-group-item {
+        color: unset;
+        font-size: 14px;
+      }
+    </style>
+
+    <link
+      href="assets/templates/basic/css/color.php?color=fd2c79&secondColor=ed0cbd"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="preloader">
+      <div class="preloader__loader">
+        <i class="fa-solid fa-heart"></i>
+      </div>
+    </div>
+    <div class="back-to-top">
+      <span class="back-top">
+        <i class="fa-solid fa-chevron-up"></i>
+      </span>
+    </div>
+    <div class="body-overlay" id="body-overlay"></div>
+    <div class="search-popup" id="search-popup">
+      <form class="search-form" action="#">
+        <div class="form-group">
+          <input class="form-control" type="text" placeholder="Search....." />
+        </div>
+        <button class="submit-btn xl-text" type="submit">
+          <i class="las la-search"></i>
+        </button>
+      </form>
+    </div>
+    <div class="toggle-overlay"></div>
+
+    <!-- Header Top  -->
+    <div class="header-top">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-6 col-md-8">
+            <ul class="list list--row header-top__list">
+              <li>
+                <a class="t-link d-flex align-items-center" href="">
+                  <div class="header-top__icon me-3">
+                    <i class="far fa-paper-plane"></i>
+                  </div>
+                  <span
+                    class="header-top__para d-none d-md-inline-block sm-text text-clr"
+                  >
+                    <span class="__cf_email__">democompany@gmail.com</span>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a
+                  class="t-link d-flex align-items-center"
+                  href="tel:7890 - 5678 - 2345"
+                >
+                  <div class="header-top__icon me-3">
+                    <i class="fas fa-phone-alt"></i>
+                  </div>
+                  <span
+                    class="header-top__para d-none d-md-inline-block sm-text text-clr"
+                  >
+                    7890 - 5678 - 2345
+                  </span>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-6 col-md-4">
+            <ul
+              class="social-icons list list--row justify-content-end"
+              style="--gap: 0.5rem"
+            >
+              <li class="social-icons__item">
+                <a
+                  class="social-icons__link t-link social-icon icon icon--circle icon--xxs"
+                  href=""
+                  target="_blank"
+                >
+                  <i class="fab fa-facebook"></i>
+                </a>
+              </li>
+              <li class="social-icons__item">
+                <a
+                  class="social-icons__link t-link social-icon icon icon--circle icon--xxs"
+                  href=""
+                  target="_blank"
+                >
+                  <i class="fab fa-twitter"></i>
+                </a>
+              </li>
+              <li class="social-icons__item">
+                <a
+                  class="social-icons__link t-link social-icon icon icon--circle icon--xxs"
+                  href=""
+                  target="_blank"
+                >
+                  <i class="fab fa-instagram"></i>
+                </a>
+              </li>
+              <li class="social-icons__item">
+                <a
+                  class="social-icons__link t-link social-icon icon icon--circle icon--xxs"
+                  href=""
+                  target="_blank"
+                >
+                  <i class="fab fa-linkedin"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Header Top End -->
+    <!-- ==================== Bottom Header End Here ==================== -->
+    <header class="header-bottom">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <a class="navbar-brand logo" href="index.html">
+            <img src="assets/images/logo.png" alt="site logo" />
+          </a>
+          <button
+            class="navbar-toggler header-button"
+            data-bs-target="#navbarSupportedContent"
+            data-bs-toggle="collapse"
+            type="button"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="las la-bars"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav nav-menu ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="packages.html">Packages</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="members.html">Members</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="stories.html">Stories</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link active" href="contact.html">Contact</a>
+              </li>
+
+              <li class="nav-item d-lg-none d-block">
+                <a class="nav-link" href="login.html"> Login</a>
+              </li>
+              <li
+                class="nav-item d-lg-none d-block d-flex justify-content-between"
+              >
+                <a class="nav-link" href="user/register.html"> Register </a>
+                <select class="langSel select language-select">
+                  <option value="en" selected>English</option>
+                  <option value="hn">Hindi</option>
+                  <option value="bn">Bangla</option>
+                  <option value="es">Spanish</option>
+                </select>
+              </li>
+            </ul>
+            <div class="d-none d-lg-block">
+              <ul class="header-login list primary-menu">
+                <div class="language dropdown">
+                  <button
+                    class="language-wrapper"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    <div class="language-content">
+                      <div class="language_flag">
+                        <img
+                          src="assets/images/language/668283c52fb201719829445.png"
+                          alt="image"
+                        />
+                      </div>
+                      <p class="language_text_select">English</p>
+                    </div>
+                    <span class="collapse-icon"
+                      ><i class="fa fa-angle-down"></i
+                    ></span>
+                  </button>
+
+                  <div class="dropdown-menu langList_dropdow py-2" style="">
+                    <ul class="langList">
+                      <li class="language-list">
+                        <a href="change/en">
+                          <div class="language_flag">
+                            <img
+                              src="assets/images/language/668283c52fb201719829445.png"
+                              alt="image"
+                            />
+                          </div>
+                        </a>
+                        <a href="change/en">
+                          <p class="language_text custom--dropdown__selected">
+                            English
+                          </p>
+                        </a>
+                      </li>
+                      <li class="language-list">
+                        <a href="change/hn">
+                          <div class="language_flag">
+                            <img
+                              src="assets/images/language/668283ccbaf291719829452.png"
+                              alt="image"
+                            />
+                          </div>
+                        </a>
+                        <a href="change/hn">
+                          <p class="language_text">Hindi</p>
+                        </a>
+                      </li>
+                      <li class="language-list">
+                        <a href="change/bn">
+                          <div class="language_flag">
+                            <img
+                              src="assets/images/language/668283d40aea81719829460.png"
+                              alt="image"
+                            />
+                          </div>
+                        </a>
+                        <a href="change/bn">
+                          <p class="language_text">Bangla</p>
+                        </a>
+                      </li>
+                      <li class="language-list">
+                        <a href="change/es">
+                          <div class="language_flag">
+                            <img
+                              src="assets/images/language/66828400bc4bb1719829504.png"
+                              alt="image"
+                            />
+                          </div>
+                        </a>
+                        <a href="change/es">
+                          <p class="language_text">Spanish</p>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <li class="header-login__item">
+                  <a class="btn btn--base btn--sm" href="login.html">
+                    <i class="fa fa-sign-in"></i> Login</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <!-- User Login End -->
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- ==================== Bottom Header End Here ==================== -->
+
+    <!-- =========================== Mobile Device Bottom Navigation Start ============================ -->
+    <div class="mobile-nav d-lg-none d-block">
+      <div class="container">
+        <ul class="mobile-nav__menu d-flex justify-content-between">
+          <li class="mobile-nav__item">
+            <a class="mobile-nav__link text-decoration-none" href="index.html">
+              <i class="las la-home"></i>
+              <span>Home</span>
+            </a>
+          </li>
+
+          <li class="mobile-nav__item">
+            <a class="mobile-nav__link" href="members.html">
+              <i class="las la-users"></i>
+              <span>Members</span>
+            </a>
+          </li>
+
+          <li class="mobile-nav__item">
+            <a class="mobile-nav__link" href="contact.html">
+              <i class="las la-comment-dots"></i>
+              <span>Contact</span>
+            </a>
+          </li>
+          <li class="mobile-nav__item">
+            <a class="mobile-nav__link" href="login.html">
+              <span>
+                <i class="las la-user"></i>
+                Account
+              </span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="login section">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8 col-lg-6">
+            <div class="login__wrapper form-disabled">
+              <span class="form-disabled-text">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  version="1.1"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  width="80"
+                  height="80"
+                  x="0"
+                  y="0"
+                  viewBox="0 0 682.667 682.667"
+                  style="enable-background: new 0 0 512 512"
+                  xml:space="preserve"
+                  class=""
+                >
+                  <g>
+                    <defs>
+                      <clipPath id="a" clipPathUnits="userSpaceOnUse">
+                        <path
+                          d="M0 512h512V0H0Z"
+                          fill="#fd2c79"
+                          opacity="1"
+                          data-original="#000000"
+                          class=""
+                        ></path>
+                      </clipPath>
+                    </defs>
+                    <g
+                      clip-path="url(#a)"
+                      transform="matrix(1.33333 0 0 -1.33333 0 682.667)"
+                    >
+                      <path
+                        d="M0 0h-299.927c-17.003 0-30.786 13.784-30.786 30.787v239.676c0 17.003 13.783 30.787 30.786 30.787H0c17.003 0 30.787-13.784 30.787-30.787V30.787C30.787 13.784 17.003 0 0 0Z"
+                        style="
+                          stroke-width: 30;
+                          stroke-linecap: round;
+                          stroke-linejoin: round;
+                          stroke-miterlimit: 10;
+                          stroke-dasharray: none;
+                          stroke-opacity: 1;
+                        "
+                        transform="translate(405.963 15)"
+                        fill="none"
+                        stroke="#fd2c79"
+                        stroke-width="30"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-miterlimit="10"
+                        stroke-dasharray="none"
+                        stroke-opacity=""
+                        data-original="#000000"
+                        opacity="1"
+                        class=""
+                      ></path>
+                      <path
+                        d="M0 0c0-16.638-13.487-30.125-30.125-30.125C-46.763-30.125-60.25-16.638-60.25 0c0 16.638 13.487 30.125 30.125 30.125C-13.487 30.125 0 16.638 0 0Z"
+                        style="
+                          stroke-width: 30;
+                          stroke-linecap: round;
+                          stroke-linejoin: round;
+                          stroke-miterlimit: 10;
+                          stroke-dasharray: none;
+                          stroke-opacity: 1;
+                        "
+                        transform="translate(286.125 193.15)"
+                        fill="none"
+                        stroke="#fd2c79"
+                        stroke-width="30"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-miterlimit="10"
+                        stroke-dasharray="none"
+                        stroke-opacity=""
+                        data-original="#000000"
+                        opacity="1"
+                        class=""
+                      ></path>
+                      <path
+                        d="M0 0v-60.25"
+                        style="
+                          stroke-width: 30;
+                          stroke-linecap: round;
+                          stroke-linejoin: round;
+                          stroke-miterlimit: 10;
+                          stroke-dasharray: none;
+                          stroke-opacity: 1;
+                        "
+                        transform="translate(256 163.025)"
+                        fill="none"
+                        stroke="#fd2c79"
+                        stroke-width="30"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-miterlimit="10"
+                        stroke-dasharray="none"
+                        stroke-opacity=""
+                        data-original="#000000"
+                        opacity="1"
+                        class=""
+                      ></path>
+                      <path
+                        d="M0 0h-60v67.416c0 29.456-23.878 53.334-53.334 53.334h-14.082c-29.456 0-53.334-23.878-53.334-53.334V0h-60v60.375c0 66.481 53.894 120.375 120.375 120.375v0C-53.894 180.75 0 126.856 0 60.375Z"
+                        style="
+                          stroke-width: 30;
+                          stroke-linecap: round;
+                          stroke-linejoin: round;
+                          stroke-miterlimit: 10;
+                          stroke-dasharray: none;
+                          stroke-opacity: 1;
+                        "
+                        transform="translate(376.375 316.25)"
+                        fill="none"
+                        stroke="#fd2c79"
+                        stroke-width="30"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-miterlimit="10"
+                        stroke-dasharray="none"
+                        stroke-opacity=""
+                        data-original="#000000"
+                        opacity="1"
+                        class=""
+                      ></path>
+                    </g>
+                  </g>
+                </svg>
+              </span>
+              <form
+                class="login__form verify-gcaptcha"
+                action=""
+                autocomplete="off"
+                method="POST"
+              >
+                <input
+                  type="hidden"
+                  name="_token"
+                  value=""
+                  autocomplete="off"
+                />
+                <div class="section__head text-center">
+                  <h2 class="login-title mt-0">Create an account</h2>
+                  <p class="t-short-para mx-auto mb-0 text-center">
+                    Please Provide your valid informations to register!
+                  </p>
+                </div>
+                <div class="row g-3">
+                  <div class="col-sm-6">
+                    <div class="input--group">
+                      <input
+                        class="form-control form--control"
+                        id="firstname"
+                        name="firstname"
+                        type="text"
+                        value=""
+                        autocomplete="off"
+                        placeholder="none"
+                        required
+                      />
+                      <label class="form--label" for="firstname"
+                        >First Name</label
+                      >
+                    </div>
+                  </div>
+                  <div class="col-sm-6">
+                    <div class="input--group">
+                      <input
+                        class="form-control form--control"
+                        id="lastname"
+                        name="lastname"
+                        type="text"
+                        value=""
+                        autocomplete="off"
+                        placeholder="none"
+                        required
+                      />
+                      <label class="form--label" for="lastname"
+                        >Last Name</label
+                      >
+                    </div>
+                  </div>
+                  <div class="col-sm-12">
+                    <div class="input--group">
+                      <input
+                        class="form-control form--control checkUser"
+                        id="email"
+                        name="email"
+                        type="email"
+                        value=""
+                        placeholder="none"
+                        required
+                      />
+                      <label class="form--label" for="email"
+                        >E-Mail Address</label
+                      >
+                    </div>
+                  </div>
+                  <div class="col-sm-6 mt-4">
+                    <div class="input--group">
+                      <input
+                        class="form-control form--control"
+                        id="password"
+                        name="password"
+                        type="password"
+                        placeholder="none"
+                        required
+                      />
+                      <label class="form--label" for="password">Password</label>
+                    </div>
+                  </div>
+                  <div class="col-sm-6 mt-4">
+                    <div class="input--group">
+                      <input
+                        class="form-control form--control"
+                        id="password_confirmation"
+                        name="password_confirmation"
+                        type="password"
+                        placeholder="none"
+                        required
+                      />
+                      <label class="form--label" for="password_confirmation"
+                        >Confirm Password</label
+                      >
+                    </div>
+                  </div>
+
+                  <div class="col-sm-12 mt-4">
+                    <div
+                      class="input--group d-flex align-items-center justify-content-start flex-wrap text-start"
+                    >
+                      <div class="form--check me-2">
+                        <input
+                          class="form-check-input"
+                          id="agree"
+                          name="agree"
+                          type="checkbox"
+                          required
+                        />
+                        <label class="form-check-label" for="agree">
+                          I agree with
+                        </label>
+                        <a href="policy/privacy-policy?42" target="_blank">
+                          Privacy Policy
+                        </a>
+                        ,
+                        <a href="policy/terms-of-service?43" target="_blank">
+                          Terms of Service
+                        </a>
+                        ,
+                        <a href="policy/purchase-policy?127" target="_blank">
+                          Purchase Policy
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-12">
+                    <button
+                      class="btn btn--md btn--base w-100"
+                      data-bs-toggle="list"
+                      type="submit"
+                    >
+                      Register
+                    </button>
+                  </div>
+
+                  <div class="col-sm-12">
+                    <div class="login-account text-center">
+                      <p class="mb-0 mt-3">
+                        Have an account? <a href="login.html">Login</a>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </form>
+              <div class="registration-socails mt-3">
+                <div class="registration-socails__content text-center">
+                  <p class="registration-socails__desc mb-0 mt-0">
+                    Or Login with
+                  </p>
+                </div>
+
+                <ul
+                  class="registration-socails__list social-icons list list--row justify-content-center"
+                >
+                  <li>
+                    <a
+                      class="social-icons__link t-link social-icon icon icon--sqr icon--xxs"
+                      href="user/social-login/google"
+                      ><i class="fa-brands fa-google"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a
+                      class="social-icons__link t-link social-icon icon icon--sqr icon--xxs"
+                      href="user/social-login/facebook"
+                      ><i class="fa-brands fa-facebook-f"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a
+                      class="social-icons__link t-link social-icon icon icon--sqr icon--xxs"
+                      href="user/social-login/linkedin"
+                      ><i class="fa-brands fa-linkedin-in"></i
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal fade"
+      id="existModalCenter"
+      role="dialog"
+      aria-hidden="true"
+      aria-labelledby="existModalCenterTitle"
+      tabindex="-1"
+    >
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="existModalLongTitle">
+              You are with us
+            </h5>
+            <span
+              class="close"
+              data-bs-dismiss="modal"
+              type="button"
+              aria-label="Close"
+            >
+              <i class="las la-times"></i>
+            </span>
+          </div>
+          <div class="modal-body">
+            <h6>You already have an account, please login!</h6>
+          </div>
+          <div class="modal-footer">
+            <button
+              class="btn btn--dark btn-sm"
+              data-bs-dismiss="modal"
+              type="button"
+            >
+              Close
+            </button>
+            <a class="btn btn--base btn-sm" href="login.html">Login</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer  -->
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="footer__content section">
+              <div class="row g-4 justify-content-xl-between">
+                <div class="col-md-6 col-lg-3">
+                  <div class="footer__contact">
+                    <h4 class="footer__title text--white mt-0">About Us</h4>
+                    <p class="text--white">
+                      Our site is flexible for both men and women. In this
+                      modern era, it is very possible to choose your partner and
+                      fill comfortable.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3 col-xl-2">
+                  <h4 class="footer__title text--white mt-0">Quick Links</h4>
+                  <ul class="footer__contact list list--base list--column">
+                    <li class="list--column__item">
+                      <a
+                        class="t-link t-link--base text--white d-inline-block"
+                        href="index.html"
+                      >
+                        Home</a
+                      >
+                    </li>
+                    <li class="list--column__item">
+                      <a
+                        class="t-link t-link--base text--white d-inline-block"
+                        href="stories.html"
+                      >
+                        Stories</a
+                      >
+                    </li>
+                    <li class="list--column__item">
+                      <a
+                        class="t-link t-link--base text--white d-inline-block"
+                        href="contact.html"
+                      >
+                        Contact</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="col-md-6 col-lg-3 col-xl-2">
+                  <h4 class="footer__title text--white mt-0">Policies</h4>
+                  <ul class="footer__contact list list--base list--column">
+                    <li class="nav-item">
+                      <a
+                        class="t-link t-link--base text--white d-inline-block"
+                        href="privacy-policy.html"
+                        >Privacy Policy</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a
+                        class="t-link t-link--base text--white d-inline-block"
+                        href="terms-of-service.html"
+                        >Terms of Service</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a
+                        class="t-link t-link--base text--white d-inline-block"
+                        href="purchase-policy.html"
+                        >Purchase Policy</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+                  <h4 class="footer__title text--white mt-0">Contact Us</h4>
+                  <ul class="footer__contact list list--column mt-4">
+                    <li>
+                      <i class="fas fa-phone-alt"></i>
+                      <a
+                        class="t-link t-link--base text--white d-inline-block"
+                        href="tel: 7890 - 5678 - 2345"
+                        >7890 - 5678 - 2345</a
+                      >
+                    </li>
+                    <li>
+                      <i class="far fa-envelope"></i>
+                      <a
+                        class="t-link t-link--base text--white d-inline-block"
+                        href=""
+                        ><span
+                          class="__cf_email__"
+                          data-cfemail="aecacbc3c1cdc1c3decfc0d7eec9c3cfc7c280cdc1c3"
+                          >democompany@gmail.com</span
+                        ></a
+                      >
+                    </li>
+                    <li class="address">
+                      <i class="fas fa-map-marker-alt"></i>4517 Washington Ave.
+                      Kentucky
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="footer__copyright">
+              <p class="sm-text text--white mb-0 text-center">
+                Copyright &copy; 2024. All Rights Reserved By
+                <a class="t-link t-link--base text--base" href="">Lagna.com</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      data-cfasync="false"
+      src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"
+    ></script>
+    <script src="assets/global/js/jquery-3.7.1.min.js"></script>
+    <script src="assets/global/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/templates/basic/js/slick.js"></script>
+    <script src="assets/templates/basic/js/jquery.magnific-popup.js"></script>
+    <script src="assets/templates/basic/js/jquery.filterizr.min.js"></script>
+    <script src="assets/templates/basic/js/jquery.ui.js"></script>
+    <script src="assets/templates/basic/js/viewport.js"></script>
+    <script src="assets/templates/basic/js/odometer.js"></script>
+    <script src="assets/templates/basic/js/app.js"></script>
+
+    <link href="assets/global/css/iziToast.min.css" rel="stylesheet" />
+    <link href="assets/global/css/iziToast_custom.css" rel="stylesheet" />
+    <script src="assets/global/js/iziToast.min.js"></script>
+  </body>
+</html>
